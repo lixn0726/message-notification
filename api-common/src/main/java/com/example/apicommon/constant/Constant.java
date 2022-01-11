@@ -6,9 +6,11 @@ package com.example.apicommon.constant;
  **/
 public interface Constant {
 
-    public final int TRUE = 1;
+    public static final int TRUE = 1;
+    public static final int FALSE = 0;
 
-    public final int FALSE = 0;
+    public static final String YEAR_FORMATTER_PATTERN = "yyyyMMdd";
 
-    public final String YEAR_FORMATTER_PATTERN = "yyyyMMdd";
+    public static final String SUCCESS = "true";
+    public static final String FAIL = "false";
 }

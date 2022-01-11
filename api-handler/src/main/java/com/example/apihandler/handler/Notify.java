@@ -1,5 +1,7 @@
 package com.example.apihandler.handler;
 
+import com.example.apihandler.domain.ReadyToSend;
+
 import java.util.Set;
 
 /**
@@ -7,5 +9,5 @@ import java.util.Set;
  * @date 2022/01/10 17:55
  **/
 public interface Notify {
-    void sendMessage(String content, Set<Integer> ids);
+    void sendMessage(ReadyToSend content, Set<Integer> ids);
 }
